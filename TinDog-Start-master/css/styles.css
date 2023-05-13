@@ -1,0 +1,144 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* title's section */
+
+    #title{
+        background-color: #ff4c68;
+        color: #fff;
+    }
+    .title-image{
+        width: 60%;
+        transform: rotate(25deg);
+    }
+    .left{
+        text-align: left;
+    }
+
+    @media (max-width:1024px){
+        .title-image{
+            transform: rotate(0);
+        }
+        #title{
+            text-align: center;
+        }
+    }
+    
+    /* navbar section */
+        .navbar-brand{
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .navbar{
+            padding: 0 0 4.5rem;
+        }
+        .nav-item{
+            padding: 0 18px;
+        }
+        .nav-link{
+            font-size: 1.2rem;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+    /* end of navbar section */
+
+/* end of title section */
+
+
+
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+
+    p{
+        color: #8f8f8f;
+    }
+
+    .feature-box{
+        padding: 5%;
+    }
+
+    .font{
+        color: #ef8172;
+        font-size: 3rem;
+    }
+
+    .font:hover{
+        color: #ff4c68;
+    }
+
+/* end of features section */
+
+/* testimonial section */
+    #testimonials{
+        background-color: #ef8172;
+        color:#fff;
+    }
+    .testimonial-image{
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+/* end of testimonial section */
+
+/* press section */
+    #press{
+        background-color: #ef8172;
+        padding-bottom: 3%;
+    }
+
+    .press-logo{
+        width: 15%;
+        margin: 20px 20px 50px;
+    }
+/* end of press section */
+
+/* pricing section */
+
+    #pricing{
+        padding: 100px;
+    }
+    .pricing-coloumn {
+        padding: 3% 2%;
+    }
+
+/* end of pricing section */
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+/* footer section */
+#footer{
+    font-size: x-large;
+    line-height: 1.5;
+}
+.ficon{
+    margin: 20px 10px;
+}
